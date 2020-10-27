@@ -93,7 +93,8 @@ class MathUtilsTest {
 
 		assertAll(
 
-				() -> assertEquals(4, mathUtils.multiply(2, 2)), () -> assertEquals(0, mathUtils.multiply(2, 0)),
+				() -> assertEquals(4, mathUtils.multiply(2, 2)),
+				() -> assertEquals(0, mathUtils.multiply(2, 0)),
 				() -> assertEquals(-2, mathUtils.multiply(2, -1))
 
 		);

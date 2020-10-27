@@ -1,0 +1,54 @@
+package junit.punam;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+@DisplayName("When testing SumOddRange Class Methods")
+class SumOddRangeTest {
+	
+	SumOddRange obj ;
+	
+	@BeforeEach
+	void createInstance() {
+		
+		obj = new SumOddRange();
+		
+	}
+
+	@Test
+	@DisplayName("When Testing for Even Numbers")
+	void testEvens() {
+		assertFalse(obj.isOdd(2), "2 is not odd");
+		assertEquals(false,obj.isOdd(16), "16 is not odd");
+	}
+	
+	@Test
+	@DisplayName("When Testing for Odd Numbers")
+	void testOdds() {
+		
+		assertTrue(obj.isOdd(4), "4 is even");
+		assertEquals(true, obj.isOdd(5),"5 is odd");
+	}
+	
+	@Test
+	@DisplayName("When Testing for Zero Number")
+	void testZero() {
+		assertFalse(obj.isOdd(0),"0 is Even");
+	}
+	
+	@Test
+	@DisplayName("When Testing a Negative Even Numbers")
+	void testNegativeEvens() {
+		assertFalse(obj.isOdd(-4), "-4 is not odd");
+	}
+	
+	@Test
+	@DisplayName("When Testing a Negative Odd Numbers")
+	void testNegativeOdds() {
+		assertTrue(obj.isOdd(-7), "-7 is odd");
+	}
+
+}
