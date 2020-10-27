@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun MathUtilsTest" project="Junit-5-Basics" tests="5" started="5" failures="0" errors="0" ignored="1">
-  <testsuite name="junit.punam.MathUtilsTest" time="0.055" displayname="MathUtilsTest" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]">
-    <testcase name="testAdd" classname="junit.punam.MathUtilsTest" time="0.028" displayname="testAdd()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testAdd()]"/>
-    <testcase name="testSub" classname="junit.punam.MathUtilsTest" time="0.004" displayname="Testing Subtract Method" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testSub()]"/>
-    <testcase name="testComputeCircleArea" classname="junit.punam.MathUtilsTest" time="0.006" displayname="testComputeCircleArea()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testComputeCircleArea()]"/>
-    <testcase name="testDivide" classname="junit.punam.MathUtilsTest" time="0.009" displayname="testDivide()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testDivide()]"/>
-    <testcase name="testMultiply" classname="junit.punam.MathUtilsTest" time="0.008" ignored="true" displayname="Testing Multiply Method" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testMultiply()]"/>
-  </testsuite>
-</testrun>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun MathUtilsTest" project="Junit-5-Basics" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="junit.punam.MathUtilsTest" time="0.17" displayname="MathUtilsTest" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]">
-    <testcase name="testAdd" classname="junit.punam.MathUtilsTest" time="0.083" displayname="testAdd()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testAdd()]"/>
-    <testcase name="testComputeCircleArea" classname="junit.punam.MathUtilsTest" time="0.025" displayname="testComputeCircleArea()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testComputeCircleArea()]"/>
-    <testcase name="testDivide" classname="junit.punam.MathUtilsTest" time="0.062" displayname="testDivide()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.MathUtilsTest]/[method:testDivide()]"/>
-  </testsuite>
-</testrun>
