@@ -5,7 +5,7 @@ public class SumOddRange {
 	public static void main(String[] args) {
 
 		SumOddRange obj = new SumOddRange();
-		
+
 		System.out.println(obj.sumOdd(1, 5));
 	}
 
@@ -13,8 +13,8 @@ public class SumOddRange {
 		/*
 		 * if (number > 0) { if (number % 2 != 0) return true; } return false;
 		 */
-		
-		 return (number % 2 != 0)? true :  false;
+
+		return (number % 2 != 0) ? true : false;
 	}
 
 	public int sumOdd(int start, int end) {

@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.TestInstance"/>
@@ -18,4 +17,14 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Tag"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.TestInfo"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.TestReporter"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="junit.punam.Calculator"/>
+    <fullyQualifiedTypeName name="junit.punam.CalculatorService"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
+    <fullyQualifiedTypeName name="org.mockito.Mock"/>
+    <fullyQualifiedTypeName name="org.mockito.junit.MockitoRule"/>
+    <fullyQualifiedTypeName name="org.mockito.junit.MockitoJUnit"/>
+    <fullyQualifiedTypeName name="org.junit.Rule"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
 </qualifiedTypeNameHistroy>

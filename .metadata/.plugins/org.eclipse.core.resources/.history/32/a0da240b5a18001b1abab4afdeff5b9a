@@ -1,0 +1,13 @@
+package junit.punam;
+
+public class Calculator {
+	
+	CalculatorService service;
+	
+	public int perform(int i , int j) {
+		
+		return (service.add(i, j) * i);
+		
+	}
+
+}

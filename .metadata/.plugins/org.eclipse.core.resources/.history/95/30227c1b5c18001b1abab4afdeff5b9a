@@ -1,0 +1,39 @@
+package junit.punam;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Rule;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
+import  org.mockito.Mockito;
+import org.mockito.junit.MockitoJUnit;
+import org.mockito.junit.MockitoRule;
+
+class CalculatorTest {
+	
+	Calculator c = null;
+	//CalculatorService service = Mockito.mock(CalculatorService.class);
+	@Mock
+	CalculatorService service ;
+	
+	@Rule public MockitoRule rule = MockitoJUnit.rule();
+	
+	@BeforeEach
+	public void setUp() {
+		c = new Calculator(service);
+	}
+
+	
+	
+	@Test
+	public void perform() {
+		
+		Mockito.when(service.add(2,3)).thenReturn(5);
+		Mockito.when(service.add(-2,-3)).thenReturn(-5);
+		
+		assertEquals(10, c.perform(2,3));
+		assertEquals(10, c.perform(-2,-3));
+	}
+
+}

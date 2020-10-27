@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun When testing SumOddRange Class Methods" project="Junit-5-Basics" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="junit.punam.SumOddRangeTest" time="0.06" displayname="When testing SumOddRange Class Methods" uniqueid="[engine:junit-jupiter]/[class:junit.punam.SumOddRangeTest]">
-    <testcase name="testEvens" classname="junit.punam.SumOddRangeTest" time="0.033" displayname="When Testing for Even Numbers" uniqueid="[engine:junit-jupiter]/[class:junit.punam.SumOddRangeTest]/[method:testEvens()]"/>
-    <testcase name="testOdds" classname="junit.punam.SumOddRangeTest" time="0.004" displayname="When Testing for Odd Numbers" uniqueid="[engine:junit-jupiter]/[class:junit.punam.SumOddRangeTest]/[method:testOdds()]"/>
-    <testcase name="testZero" classname="junit.punam.SumOddRangeTest" time="0.002" displayname="When Testing for Zero Number" uniqueid="[engine:junit-jupiter]/[class:junit.punam.SumOddRangeTest]/[method:testZero()]"/>
-    <testcase name="testNegativeEvens" classname="junit.punam.SumOddRangeTest" time="0.003" displayname="When Testing a Negative Even Numbers" uniqueid="[engine:junit-jupiter]/[class:junit.punam.SumOddRangeTest]/[method:testNegativeEvens()]"/>
-    <testcase name="testNegativeOdds" classname="junit.punam.SumOddRangeTest" time="0.018" displayname="When Testing a Negative Odd Numbers" uniqueid="[engine:junit-jupiter]/[class:junit.punam.SumOddRangeTest]/[method:testNegativeOdds()]"/>
-  </testsuite>
-</testrun>

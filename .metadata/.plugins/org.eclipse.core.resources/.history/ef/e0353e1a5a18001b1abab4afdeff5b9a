@@ -1,0 +1,28 @@
+package junit.punam;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import  org.mockito.Mockito;
+
+class CalculatorTest {
+	
+	Calculator c = null;
+	CalculatorService service = Mockito.mock(CalculatorService.class);
+	
+	
+	@BeforeEach
+	public void setUp() {
+		c = new Calculator();
+	}
+
+	
+	
+	@Test
+	public void perform() {
+		
+		assertEquals(10, c.perform(2,3));
+	}
+
+}
