@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun addTwoNumberTest()" project="Junit-5-Basics" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="junit.punam.CalculatorTest_EasyMock" time="0.045" displayname="CalculatorTest_EasyMock" uniqueid="[engine:junit-jupiter]/[class:junit.punam.CalculatorTest_EasyMock]">
+    <testcase name="addTwoNumberTest" classname="junit.punam.CalculatorTest_EasyMock" time="0.045" displayname="addTwoNumberTest()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.CalculatorTest_EasyMock]/[method:addTwoNumberTest()]"/>
+  </testsuite>
+</testrun>

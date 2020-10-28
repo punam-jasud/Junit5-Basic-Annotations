@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest_Mockito" project="Junit-5-Basics" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="junit.punam.CalculatorTest_Mockito" time="0.073" displayname="CalculatorTest_Mockito" uniqueid="[engine:junit-jupiter]/[class:junit.punam.CalculatorTest_Mockito]">
+    <testcase name="addTwoNumberTest" classname="junit.punam.CalculatorTest_Mockito" time="0.073" displayname="addTwoNumberTest()" uniqueid="[engine:junit-jupiter]/[class:junit.punam.CalculatorTest_Mockito]/[method:addTwoNumberTest()]"/>
+  </testsuite>
+</testrun>
